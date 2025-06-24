@@ -11,6 +11,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         meiryo: ['Meiryo', 'メイリオ', 'sans-serif'],
+        'shippori': ['"Shippori Mincho"', 'serif'],
+        'sans': ['"Shippori Mincho"', 'serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

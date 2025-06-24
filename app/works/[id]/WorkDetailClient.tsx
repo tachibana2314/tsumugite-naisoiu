@@ -75,7 +75,9 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
           {/* メイン情報 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="order-2 md:order-1">
-              <h1 className="text-3xl md:text-4xl font-light mb-4 md:mb-6">{project.title}</h1>
+              <div className="mb-4 md:mb-6">
+                <h1 className="text-3xl md:text-4xl font-light mb-3 inline-block border-b-2 border-gray-900 pb-1" >{project.title}</h1>
+              </div>
               <div className="space-y-3 md:space-y-4 text-gray-600">
                 <p className="flex items-center">
                   <span>{project.location}</span>
@@ -89,7 +91,7 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
                 <p className="mt-6 md:mt-8 leading-relaxed">{project.description}</p>
               </div>
             </div>
-            <div className="relative aspect-[4/3] order-1 md:order-2 bg-gray-100">
+            {/* <div className="relative aspect-[4/3] order-1 md:order-2 bg-gray-100">
               <Image
                 src={project.imageUrl}
                 alt={project.title}
@@ -98,7 +100,7 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
-            </div>
+            </div> */}
           </div>
 
           {/* 画像スライダー */}

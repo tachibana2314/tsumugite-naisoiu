@@ -2,6 +2,31 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: "17",
+    title: "すすむ堂",
+    location: "福岡市中央区渡辺通",
+    date: "2025/06",
+    imageUrl: "/images/works/17/mv.webp",
+    category: "炉端焼酒場",
+    description: "",
+    images: [
+      "/images/works/17/1.webp",
+      "/images/works/17/2.webp",
+      "/images/works/17/3.webp",
+      "/images/works/17/4.webp",
+      "/images/works/17/5.webp",
+      "/images/works/17/6.webp",
+      "/images/works/17/7.webp",
+      "/images/works/17/8.webp",
+      "/images/works/17/9.webp",
+      "/images/works/17/10.webp",
+      "/images/works/17/11.webp",
+      "/images/works/17/12.webp",
+      "/images/works/17/13.webp",
+      "/images/works/17/14.webp"
+    ]
+  },
+  {
     id: "16",
     title: "器とバル さん手",
     location: "北九州市小倉南区",

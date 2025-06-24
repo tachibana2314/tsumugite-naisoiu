@@ -53,7 +53,7 @@ export default function RootLayout({
         <link rel="canonical" href="https://tsumugite-naisoudesign.com" />
         <SchemaOrg schema={combinedSchema} />
       </head>
-      <body className="font-meiryo">
+      <body className="font-shippori">
         <Header />
         <div className="pt-16 md:pt-16">
           {children}

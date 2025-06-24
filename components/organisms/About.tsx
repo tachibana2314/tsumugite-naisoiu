@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export const About = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -22,18 +22,21 @@ export const About = () => {
                 <h2 className="text-4xl md:text-5xl font-light">ABOUT</h2>
                 <div className="space-y-4 text-gray-600">
                   <p className="text-lg">
-                  「TSUMUGITE」は、福岡を中心に店舗デザイン・店舗施工を一貫して手掛けています。
+                    「TSUMUGITE」は、福岡を中心に店舗デザイン・店舗施工を一貫して手掛けています。
                   </p>
                   <p className="text-lg">
-                  「お客様のコンセプト,売り方,ご予算,エンドユーザーに合わせた箱づくり」
-                   「主役である&quot;売り物&quot;」<br />
-                   「お店に立つスタッフさん」を影で引立たせる店づくり」<br />
-                   を提案いたします。<br />
-                   デザインから施工、アフターフォローまで対応しているので、<br />
-                   頼んでいただいた折には箱に携わる全てをご相談下さい。<br />
+                    お客様の<br />
+                    ・コンセプト<br />
+                    ・売り方<br />
+                    ・ご予算<br />
+                    ・エンドユーザーに合わせた空間づくり<br />
+                    そして何より、<br />
+                    お店の主役である<br />
+                    ・&quot;商品&quot;そして&quot;お店の従業員様&quot;を引立たせる店づくりを提案いたします。
                   </p>
                   <p className="text-lg">
-                    デザインから施工、アフターフォローまで一貫して対応しているので、安心してお店作りをお任せください。
+                    デザインから施工、OPEN後のアフターフォローまで当社で対応していますので、ご安心してお任せ頂ければ幸いです。<br />
+                    まずはお気軽にご相談ください。
                   </p>
                 </div>
                 <div className="hidden md:block">

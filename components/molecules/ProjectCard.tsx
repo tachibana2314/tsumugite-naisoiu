@@ -36,11 +36,11 @@ export const ProjectCard = ({ project, showDetails = false }: ProjectCardProps) 
       </div>
       <div className="p-4 bg-white">
         <>
-          <p className="text-xs md:text-sm text-gray-500 mb-1">{project.category}</p>
-          <p className="text-xs md:text-sm text-gray-500 mb-1">{project.location}</p>
-          <h3 className="text-base md:text-lg font-medium line-clamp-2 group-hover:text-gray-600 transition-colors">
+          <h3 className="text-base md:text-lg font-medium line-clamp-2 group-hover:text-gray-500 transition-colors mb-2 inline-block border-b-2 border-gray-900 pb-1">
             {project.title}
           </h3>
+          <p className="text-xs md:text-sm text-gray-500 mb-1">{project.category}</p>
+          <p className="text-xs md:text-sm text-gray-500 mb-1">{project.location}</p>
         </>
       </div>
     </motion.div>

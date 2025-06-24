@@ -171,7 +171,7 @@ export const Hero = () => {
             }}
           >
             <Image
-              src="/logo/logo.png"
+              src="/logo/logo2.png"
               alt="TSUMUGITE"
               width={300}
               height={75}
@@ -198,7 +198,7 @@ export const Hero = () => {
                 ease: "easeOut"
               }}
             >
-              あなたを表現
+              あなたを表現するモノづくり
             </motion.p>
             
             <motion.div

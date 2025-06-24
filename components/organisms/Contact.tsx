@@ -19,20 +19,20 @@ import { ContactForm, ContactType } from "@/types";
 import { motion } from "framer-motion";
 import { CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 
-const contactTypes: ContactType[] = [
-  "店舗・オフィスの設計について",
-  "その他"
-];
+// const contactTypes: ContactType[] = [
+//   "店舗・オフィスの設計について",
+//   "その他"
+// ];
 
 const formSchema = z.object({
   name: z.string().min(1, "お名前を入力してください"),
-  company: z.string().min(1, "会社名を入力してください"),
+  // company: z.string().min(1, "会社名を入力してください"),
   email: z.string().email("正しいメールアドレスを入力してください"),
   phone: z.string().min(1, "電話番号を入力してください"),
-  type: z.enum([
-    "店舗・オフィスの設計について",
-    "その他"
-  ] as const),
+  // type: z.enum([
+  //   "店舗・オフィスの設計について",
+  //   "その他"
+  // ] as const),
   message: z.string().min(1, "お問い合わせ内容を入力してください"),
 });
 
@@ -45,7 +45,6 @@ export const Contact = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
-      company: "",
       email: "",
       phone: "",
       message: "",
@@ -138,7 +137,7 @@ export const Contact = () => {
                 )}
               </div>
 
-              <div className="space-y-2">
+                            {/* <div className="space-y-2">
                 <Label htmlFor="company" className="text-sm font-medium">
                   会社名 <span className="text-red-500">*</span>
                 </Label>
@@ -152,8 +151,8 @@ export const Contact = () => {
                     {form.formState.errors.company.message}
                   </p>
                 )}
-              </div>
-              
+              </div> */}
+
               <div className="space-y-2">
                 <Label htmlFor="email" className="text-sm font-medium">
                   メールアドレス <span className="text-red-500">*</span>
@@ -188,7 +187,7 @@ export const Contact = () => {
                 )}
               </div>
 
-              <div className="space-y-2">
+                            {/* <div className="space-y-2">
                 <Label className="text-sm font-medium">
                   お問い合わせ種別 <span className="text-red-500">*</span>
                 </Label>
@@ -211,7 +210,7 @@ export const Contact = () => {
                     お問い合わせ種別を選択してください
                   </p>
                 )}
-              </div>
+              </div> */}
 
               <div className="space-y-2">
                 <Label htmlFor="message" className="text-sm font-medium">
