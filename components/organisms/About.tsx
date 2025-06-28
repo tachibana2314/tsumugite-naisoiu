@@ -61,7 +61,7 @@ export const About = () => {
             >
               <div className="relative aspect-[4/3] bg-white rounded-lg shadow-sm overflow-hidden">
                 <Image
-                  src="/logo/logo.png"
+                  src="/logo/logo3.png"
                   alt="TSUMUGITE"
                   fill
                  className="object-contain transition-transform duration-500 hover:scale-105"
