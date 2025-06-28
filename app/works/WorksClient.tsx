@@ -34,7 +34,7 @@ export function WorksClient({ projects }: WorksClientProps) {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12 md:mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-light mb-4 md:mb-8">WORKS</h1>
+          <h1 className="text-2xl md:text-5xl font-light mb-4 md:mb-8">WORKS</h1>
           {/* <p className="text-gray-600 text-sm md:text-base">
             これまでに手がけた住まいづくりの事例をご紹介します
           </p> */}
