@@ -19,7 +19,7 @@ export const About = () => {
             {/* Text Content - On top for mobile, on top for desktop */}
             <div className="flex flex-col justify-center order-1 md:order-1">
               <div className="space-y-6">
-                <h2 className="text-4xl md:text-5xl font-light">ABOUT</h2>
+                <h2 className="text-3xl md:text-5xl font-light">ABOUT</h2>
                 <div className="space-y-4 text-gray-600">
                   <p className="text-lg">
                     「TSUMUGITE」は、福岡を中心に店舗デザイン・店舗施工を一貫して手掛けています。

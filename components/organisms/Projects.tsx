@@ -36,7 +36,7 @@ export const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-light mb-4">WORKS</h2>
+          <h2 className="text-3xl md:text-5xl font-light mb-4">WORKS</h2>
           {/* <p className="text-gray-600">これまでに手がけた住まいづくりの事例をご紹介します</p> */}
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">

@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-size-adjust-sp: 0.85; /* スマホサイズでの文字サイズ調整係数を追加 */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -79,6 +80,29 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Shippori Mincho", serif;
+  }
+  
+  /* スマホサイズでの文字サイズ調整 */
+  @media (max-width: 768px) {
+    html {
+      font-size: 15px; /* ベースのフォントサイズを小さめに */
+    }
+    
+    h1 {
+      font-size: 1.7rem !important;
+    }
+    
+    h2 {
+      font-size: 1.5rem !important;
+    }
+    
+    h3 {
+      font-size: 1.3rem !important;
+    }
+    
+    p, div, span, li, a {
+      font-size: 0.9rem;
+    }
   }
   
   @font-face {
