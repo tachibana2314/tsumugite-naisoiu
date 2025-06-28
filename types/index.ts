@@ -21,7 +21,7 @@ export type ContactType =
 
 export interface ContactForm {
   name: string;
-  company: string;
+  company?: string; // 会社名を任意項目に変更
   email: string;
   phone: string;
   type: ContactType;
