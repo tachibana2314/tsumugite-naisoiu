@@ -26,7 +26,7 @@ import { CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(1, "お名前を入力してください"),
-  // company: z.string().min(1, "会社名を入力してください"),
+  company: z.string().optional(), // 会社名を任意項目に変更
   email: z.string().email("正しいメールアドレスを入力してください"),
   phone: z.string().min(1, "電話番号を入力してください"),
   // type: z.enum([
@@ -45,6 +45,7 @@ export const Contact = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
+      company: "",
       email: "",
       phone: "",
       message: "",
@@ -137,9 +138,9 @@ export const Contact = () => {
                 )}
               </div>
 
-                            {/* <div className="space-y-2">
+                            <div className="space-y-2">
                 <Label htmlFor="company" className="text-sm font-medium">
-                  会社名 <span className="text-red-500">*</span>
+                  会社名
                 </Label>
                 <Input
                   id="company"
@@ -151,7 +152,7 @@ export const Contact = () => {
                     {form.formState.errors.company.message}
                   </p>
                 )}
-              </div> */}
+              </div>
 
               <div className="space-y-2">
                 <Label htmlFor="email" className="text-sm font-medium">
