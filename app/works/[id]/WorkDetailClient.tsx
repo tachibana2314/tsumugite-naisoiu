@@ -61,9 +61,9 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
       <div className="container mx-auto px-4 py-8 md:py-24">
         <Link 
           href="/works"
-          className="inline-flex items-center text-gray-600 hover:text-gray-900 mb-8 md:mb-12"
+          className="inline-flex items-center text-gray-600 hover:text-gray-900 mb-8 md:mb-12 text-sm md:text-base"
         >
-          <ChevronLeft className="w-5 h-5 mr-2" />
+          <ChevronLeft className="w-4 h-4 md:w-5 md:h-5 mr-1 md:mr-2" />
           一覧に戻る
         </Link>
 
@@ -76,19 +76,19 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="order-2 md:order-1">
               <div className="mb-4 md:mb-6">
-                <h1 className="text-3xl md:text-4xl font-light mb-3 inline-block border-b-2 border-gray-900 pb-1" >{project.title}</h1>
+                <h1 className="text-2xl md:text-4xl font-light mb-3 inline-block border-b-2 border-gray-900 pb-1" >{project.title}</h1>
               </div>
               <div className="space-y-3 md:space-y-4 text-gray-600">
-                <p className="flex items-center">
+                <p className="flex items-center text-sm">
                   <span>{project.location}</span>
                 </p>
-                <p className="flex items-center">
+                <p className="flex items-center text-sm">
                   <span>{project.date}</span>
                 </p>
-                <p className="flex items-center">
+                <p className="flex items-center text-sm">
                   <span>{project.category}</span>
                 </p>
-                <p className="mt-6 md:mt-8 leading-relaxed">{project.description}</p>
+                <p className="mt-6 md:mt-8 leading-relaxed text-sm md:text-base">{project.description}</p>
               </div>
             </div>
             {/* <div className="relative aspect-[4/3] order-1 md:order-2 bg-gray-100">
@@ -131,17 +131,17 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
               {/* ナビゲーションボタン */}
               <button
                 onClick={scrollPrev}
-                className="absolute left-6 md:left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all z-10"
+                className="absolute left-6 md:left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1.5 md:p-2 rounded-full shadow-lg transition-all z-10"
                 aria-label="前の画像"
               >
-                <ChevronLeft className="w-6 h-6" />
+                <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
               </button>
               <button
                 onClick={scrollNext}
-                className="absolute right-6 md:right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all z-10"
+                className="absolute right-6 md:right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1.5 md:p-2 rounded-full shadow-lg transition-all z-10"
                 aria-label="次の画像"
               >
-                <ChevronRight className="w-6 h-6" />
+                <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
               </button>
             </div>
           )}
