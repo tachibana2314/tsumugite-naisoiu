@@ -29,7 +29,7 @@ export function AboutClient() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-4xl md:text-5xl font-light text-center mb-16">ABOUT</h1>
+          <h1 className="text-lg md:text-5xl font-light text-center mb-16">ABOUT</h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
             {/* Company Information */}
@@ -40,7 +40,7 @@ export function AboutClient() {
               className="space-y-8"
             >
               <div className="space-y-2">
-                <h2 className="text-2xl font-light mb-4">{companyInfo.name}</h2>
+                <h2 className="text-lg font-light mb-4">{companyInfo.name}</h2>
                 <p className="text-gray-600">{companyInfo.nameEn}</p>
               </div>
 

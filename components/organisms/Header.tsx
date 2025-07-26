@@ -95,7 +95,7 @@ export function Header() {
                   >
                     <Link
                       href={item.href}
-                      className="block text-3xl font-light text-white/90 hover:text-white transition-colors"
+                      className="block text-xl font-light text-white/90 hover:text-white transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.label}

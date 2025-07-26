@@ -85,23 +85,24 @@
   /* スマホサイズでの文字サイズ調整 */
   @media (max-width: 768px) {
     html {
-      font-size: 15px; /* ベースのフォントサイズを小さめに */
+      font-size: 14px; /* ベースのフォントサイズをさらに小さく */
     }
     
-    h1 {
-      font-size: 1.7rem !important;
+    /* Tailwindクラスが指定されていない場合のデフォルトサイズ */
+    h1:not([class*="text-"]) {
+      font-size: 1.4rem;
     }
     
-    h2 {
-      font-size: 1.5rem !important;
+    h2:not([class*="text-"]) {
+      font-size: 1.3rem;
     }
     
-    h3 {
-      font-size: 1.3rem !important;
+    h3:not([class*="text-"]) {
+      font-size: 1.2rem;
     }
     
-    p, div, span, li, a {
-      font-size: 0.9rem;
+    p:not([class*="text-"]), div:not([class*="text-"]), span:not([class*="text-"]), li:not([class*="text-"]), a:not([class*="text-"]) {
+      font-size: 0.85rem;
     }
   }
   

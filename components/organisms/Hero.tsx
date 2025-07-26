@@ -12,7 +12,6 @@ const images = [
   "/images/hero/3.webp",
   "/images/hero/4.webp",
   "/images/hero/5.webp",
-  "/images/hero/6.webp",
 ];
 
 export const Hero = () => {
@@ -187,7 +186,7 @@ export const Hero = () => {
             transition={{ delay: 1.0, duration: 0.8 }}
           >
             <motion.p 
-              className="text-lg md:text-xl mb-4 md:mb-6 text-white font-medium"
+              className="text-base md:text-xl mb-4 md:mb-6 text-white font-medium"
               initial={{ opacity: 0, y: 20 }}
               animate={{ 
                 opacity: 1, 

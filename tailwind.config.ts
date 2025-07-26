@@ -23,6 +23,9 @@ const config: Config = {
       '7xl': ['3.5rem', { lineHeight: '1' }],
       '8xl': ['4rem', { lineHeight: '1' }],
       '9xl': ['5rem', { lineHeight: '1' }],
+      '10xl': ['6rem', { lineHeight: '1' }],
+      '11xl': ['7rem', { lineHeight: '1' }],
+      '12xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
       fontFamily: {

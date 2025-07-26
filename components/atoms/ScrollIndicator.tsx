@@ -64,7 +64,7 @@ export const ScrollIndicator = () => {
         whileHover={{ scale: 1.15 }}
       >
         <motion.p 
-          className="text-xs md:text-sm mb-2 md:mb-3 text-white tracking-widest uppercase text-center"
+          className="text-[10px] md:text-sm mb-2 md:mb-3 text-white tracking-widest uppercase text-center"
         >
           Scroll
         </motion.p>

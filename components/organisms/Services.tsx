@@ -60,8 +60,8 @@ export const Services = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-light mb-4">SERVICE</h2>
-          <p className="text-gray-600">
+          <h2 className="text-lg md:text-5xl font-light mb-4">SERVICE</h2>
+          <p className="text-sm md:text-base text-gray-600">
             その街に根付き永く愛されることを目指す業態提案、店名、ロゴ、<br />
             そしてお店の設計からインテリアデザイン、販促物まで、ワンストップで提案いたします。
           </p>

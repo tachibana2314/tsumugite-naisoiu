@@ -19,24 +19,16 @@ export const About = () => {
             {/* Text Content - On top for mobile, on top for desktop */}
             <div className="flex flex-col justify-center order-1 md:order-1">
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-5xl font-light">ABOUT</h2>
+                <h2 className="text-lg md:text-10xl font-light">ABOUT</h2>
                 <div className="space-y-4 text-gray-600">
-                  <p className="text-lg">
-                    「TSUMUGITE」は、福岡を中心に店舗デザイン・店舗施工を一貫して手掛けています。
+                  <p className="text-base md:text-lg">
+                    TSUMUGITEは、福岡を拠点に店舗デザインから施工まで一貫して行う会社です。
                   </p>
-                  <p className="text-lg">
-                    お客様の<br />
-                    ・コンセプト<br />
-                    ・売り方<br />
-                    ・ご予算<br />
-                    ・エンドユーザーに合わせた空間づくり<br />
-                    そして何より、<br />
-                    お店の主役である<br />
-                    ・&quot;商品&quot;そして&quot;お店の従業員様&quot;を引立たせる店づくりを提案いたします。
+                  <p className="text-base md:text-lg">
+                    お客様のコンセプトやご予算、ターゲットに合わせて、商品とスタッフが引き立つ空間をご提案します。
                   </p>
-                  <p className="text-lg">
-                    デザインから施工、OPEN後のアフターフォローまで当社で対応していますので、ご安心してお任せ頂ければ幸いです。<br />
-                    まずはお気軽にご相談ください。
+                  <p className="text-base md:text-lg">
+                    開店後のアフターフォローまで対応可能ですので、まずはお気軽にご相談ください。
                   </p>
                 </div>
                 <div className="hidden md:block">
