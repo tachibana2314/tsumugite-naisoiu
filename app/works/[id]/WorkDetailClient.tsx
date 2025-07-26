@@ -76,7 +76,7 @@ export function WorkDetailClient({ project }: WorkDetailClientProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="order-2 md:order-1">
               <div className="mb-4 md:mb-6">
-                <h1 className="text-lg md:text-12xl font-light mb-3 inline-block border-b-2 border-gray-900 pb-1" >{project.title}</h1>
+                <h1 className="text-lg md:text-3xl font-light mb-3 inline-block border-b-2 border-gray-900 pb-1" >{project.title}</h1>
               </div>
               <div className="space-y-3 md:space-y-4 text-gray-600">
                 <p className="flex items-center text-sm">
