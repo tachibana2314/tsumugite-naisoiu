@@ -47,7 +47,7 @@ export function Header() {
                 </Link>
               ))}
               <a
-                href="https://www.instagram.com/tsumugite_/#"
+                href="https://www.instagram.com/tsumugite_tsukazaki/#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -110,7 +110,7 @@ export function Header() {
                 className="mb-12 pt-12"
               >
                 <a
-                  href="https://www.instagram.com/tsumugite_/#"
+                  href="https://www.instagram.com/tsumugite_tsukazaki/#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-white/80 hover:text-white transition-colors"

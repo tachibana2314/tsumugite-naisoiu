@@ -22,7 +22,7 @@ export function Footer() {
               <Logo color="light" />
               <div className="flex space-x-3 md:space-x-4">
                 <a
-                  href="https://www.instagram.com/tsumugite_/#"
+                  href="https://www.instagram.com/tsumugite_tsukazaki/#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
